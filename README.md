@@ -86,3 +86,22 @@ Completing the project involves several steps:
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
 For more detail about each of these steps, see the project lesson.
+
+## The environment variable parameter
+
+```bash
+
+{
+    "Parameter": {
+        "Name": "JWT_SECRET",
+        "Type": "SecureString",
+        "Value": "AQICAHiphs4WNaKllE/0REouKHF/bP9lfMr4skjk1obilZHrOgHj0bVNCWb1bofSOOmmFqGmAAAAaTBnBgkqhkiG9w0BBwagWjBYAgEAMFMGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMErFd9CQaL53kJztzAgEQgCaRsD10VlSSWGsvkHHM0hQW8dQwMbEjrf6NtDAjIF+16YyqeVGBCA==",
+        "Version": 1,
+        "LastModifiedDate": "2022-09-03T22:13:24.563000+01:00",
+        "ARN": "arn:aws:ssm:us-west-2:837885704552:parameter/JWT_SECRET",
+        "DataType": "text"
+    }
+}
+```
+
+
